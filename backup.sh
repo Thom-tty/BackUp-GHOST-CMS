@@ -14,7 +14,7 @@ GHOST_CONTENT_BACKUP_FILENAME="backup-from-ghost-$TIMESTAMP.tar.gz"
 GHOST_SAVE_CONTENT="save-ghost-content-$TIMESTAMP"
     # --- MYSQL ---
 GHOST_MYSQL_BACKUP_FILENAME="backup-from-mysql-$TIMESTAMP.sql.gz" 
-GHOST_MYSQL_DIRECTORY="MYSQLCONTAINERDIRECTORY #where the bind-mount /dump is accessible
+GHOST_MYSQL_DIRECTORY="MYSQLCONTAINERDIRECTORY" #where the bind-mount /dump is accessible
 
 #------------FUNCTIONS-------------
 
